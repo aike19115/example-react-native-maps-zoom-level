@@ -1,6 +1,8 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+min_ios_version_supported = '13.0'
+
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
 
@@ -23,6 +25,11 @@ end
 
 target 'ExampleReactNativeMapsZoomLevel' do
   config = use_native_modules!
+
+  pod 'Google-Maps-iOS-Utils', :git => 'https://github.com/Simon-TechForm/google-maps-ios-utils.git', :branch => 'feat/support-apple-silicon'
+
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
 
   # Flags change depending on the env values.
   flags = get_default_flags()
