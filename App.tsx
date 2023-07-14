@@ -24,10 +24,7 @@ export default function App() {
         onRegionChange={onRegionChange}
         provider={PROVIDER_GOOGLE}
         ref={mapViewRef}
-        showsMyLocationButton={true}
-        showsUserLocation={true}
         style={styles.flex}
-        zoomEnabled={true}
       />
       <SafeAreaView pointerEvents="box-none" style={StyleSheet.absoluteFill}>
         <Text>{zoomLevel}</Text>
