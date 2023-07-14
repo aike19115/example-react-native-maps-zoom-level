@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.examplereactnativemapsonpress"
+    namespace "com.examplereactnativemapszoomlevel"
     defaultConfig {
-        applicationId "com.examplereactnativemapsonpress"
+        applicationId "com.examplereactnativemapszoomlevel"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

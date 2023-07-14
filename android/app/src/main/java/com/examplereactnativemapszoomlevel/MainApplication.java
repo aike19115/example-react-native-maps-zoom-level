@@ -1,4 +1,4 @@
-package com.examplereactnativemapsonpress;
+package com.examplereactnativemapszoomlevel;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

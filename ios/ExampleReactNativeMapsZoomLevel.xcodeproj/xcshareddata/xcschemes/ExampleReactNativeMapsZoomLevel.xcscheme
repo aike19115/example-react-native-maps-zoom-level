@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ExampleReactNativeMapsOnpress.app"
-               BlueprintName = "ExampleReactNativeMapsOnpress"
-               ReferencedContainer = "container:ExampleReactNativeMapsOnpress.xcodeproj">
+               BuildableName = "ExampleReactNativeMapsZoomLevel.app"
+               BlueprintName = "ExampleReactNativeMapsZoomLevel"
+               ReferencedContainer = "container:ExampleReactNativeMapsZoomLevel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ExampleReactNativeMapsOnpressTests.xctest"
-               BlueprintName = "ExampleReactNativeMapsOnpressTests"
-               ReferencedContainer = "container:ExampleReactNativeMapsOnpress.xcodeproj">
+               BuildableName = "ExampleReactNativeMapsZoomLevelTests.xctest"
+               BlueprintName = "ExampleReactNativeMapsZoomLevelTests"
+               ReferencedContainer = "container:ExampleReactNativeMapsZoomLevel.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ExampleReactNativeMapsOnpress.app"
-            BlueprintName = "ExampleReactNativeMapsOnpress"
-            ReferencedContainer = "container:ExampleReactNativeMapsOnpress.xcodeproj">
+            BuildableName = "ExampleReactNativeMapsZoomLevel.app"
+            BlueprintName = "ExampleReactNativeMapsZoomLevel"
+            ReferencedContainer = "container:ExampleReactNativeMapsZoomLevel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ExampleReactNativeMapsOnpress.app"
-            BlueprintName = "ExampleReactNativeMapsOnpress"
-            ReferencedContainer = "container:ExampleReactNativeMapsOnpress.xcodeproj">
+            BuildableName = "ExampleReactNativeMapsZoomLevel.app"
+            BlueprintName = "ExampleReactNativeMapsZoomLevel"
+            ReferencedContainer = "container:ExampleReactNativeMapsZoomLevel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
